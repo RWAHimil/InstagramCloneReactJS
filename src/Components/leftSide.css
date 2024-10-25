@@ -1,0 +1,47 @@
+.logoPart {
+  width: 100px;
+  height: 30px;
+  margin-left: 25px;
+}
+.logoImg {
+  width: 100%;
+  height: 100%;
+}
+.navLinkPart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38.5px;
+}
+.leftSidePart {
+  position: fixed;
+}
+
+.navLink {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  &:hover {
+    background-color: #ededed;
+  }
+  cursor: pointer;
+}
+.navLink img {
+  width: 12%;
+  margin: 0 20px 0 0;
+}
+.navName {
+  font-weight: 400;
+}
+
+.img-profile {
+  height: 100% !important;
+  width: 15% !important;
+  border-radius: 50%;
+}
+
+.below-part {
+  margin-top: 10px;
+}
